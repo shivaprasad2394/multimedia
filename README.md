@@ -1,11 +1,13 @@
 # multimedia
-http://oopsmonk.github.io/blog/2016/06/16/android-media-framework
 
-refer this for basic.
- 
-gstreamer coming soon.
-
-https://quandarypeak.com/2013/08/androids-stagefright-media-player-architecture/
+## Android Multimedia Framework Overview
+### Component
+- Codec & Parser
+- Player
+- Streaming
+- Broadcasting
+- Audio
+- 
  
 How audio and video are played?
 Ans-
@@ -22,3 +24,23 @@ In order to play we need to decode or decompress the frames so we create a appro
 To decode the frames/read the encoded frames.
  Decide the data within frames (literally translated to converting digital data to analog signals).
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://oopsmonk.github.io/blog/2016/06/16/android-media-framework
+
+refer this for basic.
+ 
+gstreamer coming soon.
+
+https://quandarypeak.com/2013/08/androids-stagefright-media-player-architecture/

@@ -81,6 +81,7 @@ Media Codec |
 create the appropriate codec **-->** read the encoded frames **<===>** decode data **-->** end
 
 
+Example:-
 For Playing an video first we need examine whether it is MP3 container or MP4 container 
 Once we know the container we need appropriate experience extractor 
 For example if it is MP4 then it contains jpeg4 & avc3 frames.
@@ -90,7 +91,7 @@ Once extractor are ready we can extract the encoded frames from the container.
 
 In order to play we need to decode or decompress the frames so we create a appropriate codec(stands for encode or decode a digital stream)
 To decode the frames/read the encoded frames.
- Decide the data within frames (literally translated to converting digital data to analog signals).
+Decide the data within frames (literally translated to converting digital data to analog signals).
 
 
 

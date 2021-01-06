@@ -7,9 +7,35 @@
 - Streaming
 - Broadcasting
 - Audio
-- 
- 
-How audio and video are played?
+- Media db
+- Media editor
+- Media Scanner
+- FM Radio
+- Recorder
+
+# Terms
+ - Muxing
+ - Demuxing
+ - Digital Container format
+ - Audio flinger
+ - Surface Flinger
+
+# What is multimedia Framework
+- MMF is a Software framework that handles media on a computer and through a network ex:- streaming 
+
+## MMF Architecture Supports 
+- Audio 
+- Video
+- Container formats
+- Transmission Format
+
+## Used by
+- Media Player Apps
+- Audio Editor Apps
+- Video Editor Apps
+- Media Convertors
+
+# How audio and video are played?
 Ans-
 Start -->examine the container type of the media file -->create the appropriate extractor -->extract the encoded frames -->create the appropriate codec-->read the encoded frames-->decode data-->end
 

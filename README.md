@@ -50,16 +50,36 @@
 
 # How audio and video are played?
 Ans:-
+
    start| 
 ------- | 
-      |
-      |           
-      v
-Media Extractor |          Media Codec | 
---------------- |   -->    ----------- |  -->  End | 
-                                               --- | 
 
-examine the container type of the media file -->create the appropriate extractor -->extract the encoded frames -->create the appropriate codec-->read the encoded frames-->decode data-->end
+    |
+    V
+
+Media Extractor |
+--------------- |
+
+    |
+    V
+
+Media Codec |
+----------- |
+    |
+    V
+
+End | 
+--- | 
+
+
+Media Extractor | 
+--------------- | 
+examine the container type of the media file **-->** create the appropriate extractor **-->** extract the encoded frames. 
+
+Media Codec | 
+----------- | 
+create the appropriate codec **-->** read the encoded frames **<===>** decode data **-->** end
+
 
 For Playing an video first we need examine whether it is MP3 container or MP4 container 
 Once we know the container we need appropriate experience extractor 

@@ -35,9 +35,21 @@
 - Video Editor Apps
 - Media Convertors
 
+## History of Android Media Framework
+
+- Android 1.0 -->Packet video-open core
+- Android 1.6 -->Open core 2.0
+- Android 2.0 -->Stagefright
+- Android 2.1 -->Stagefright
+- Android 2.3 -->Stagefright with enhancements
+- Android 3.0 -->Stagefright +HLS for firsttime
+- Android 4.1 -->SF Support for MediaCodec
+- Android 5.0 -->MediaSession and MediaControllers introduces 
+- Android 5.1 -->Nuplayer
+
 # How audio and video are played?
-Ans-
-Start -->examine the container type of the media file -->create the appropriate extractor -->extract the encoded frames -->create the appropriate codec-->read the encoded frames-->decode data-->end
+Ans
+- Start -->examine the container type of the media file -->create the appropriate extractor -->extract the encoded frames -->create the appropriate codec-->read the encoded frames-->decode data-->end
 
 For Playing an video first we need examine whether it is MP3 container or MP4 container 
 Once we know the container we need appropriate experience extractor 

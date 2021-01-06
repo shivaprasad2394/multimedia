@@ -47,9 +47,19 @@
 - Android 5.0 -->MediaSession and MediaControllers introduces 
 - Android 5.1 -->Nuplayer
 
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
 # How audio and video are played?
 Ans
-- Start -->examine the container type of the media file -->create the appropriate extractor -->extract the encoded frames -->create the appropriate codec-->read the encoded frames-->decode data-->end
+      Start |
+      ---|
+      |
+      |
+      v
+    
+examine the container type of the media file -->create the appropriate extractor -->extract the encoded frames -->create the appropriate codec-->read the encoded frames-->decode data-->end
 
 For Playing an video first we need examine whether it is MP3 container or MP4 container 
 Once we know the container we need appropriate experience extractor 

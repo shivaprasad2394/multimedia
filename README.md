@@ -93,9 +93,15 @@ In order to play we need to decode or decompress the frames so we create a appro
 To decode the frames/read the encoded frames.
 Decide the data within frames (literally translated to converting digital data to analog signals).
 
+### Android Media Architecture Extras
+- Stagefright is a native-level media playback engine with built-in software-based codecs for several media format.
+- Stagefright feature for audio and video playback include integrator with Open Max codecs,session management,time syncronization rendering,transport control and DRM.
+- Stagefright supports integration with custom hardware codec (integrated has openmax integration layer IL component)
 
-
-
+# imp info
+- **OpenCore** is a media framework witch is replaced by Stagefright in Android 2.x. **Stagefright** relies only on OpenMAX interface for all the codecs.
+- **StagefrightPlayer** is an implement of AwesomePlayer, it call AwesomePlayer’s API. StagefrightPlayer Constructor
+- **NuPlayer** and **AwesomePlayer** both are a **player**. At first NuPlayer is designed for **stream playback**, but it **replaces** AwesomePlayer in Android 5.1 (Lollipop)
 
 
 
